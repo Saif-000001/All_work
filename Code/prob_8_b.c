@@ -3,6 +3,7 @@
 #define max 25
 int main()
 {
+    printf("\nOUTPUT-8b:  \n");
     int frag[max], b[max], f[max], i, j, nb, nf, temp, lowest = 10000;
     static int bf[max], ff[max];
     printf("\nEnter the number of blocks: ");

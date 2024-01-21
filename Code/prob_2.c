@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    printf("\nOUTPUT-2:  \n");
     int bt[20],p[20],wt[20],tat[20],i,j,n,total=0,totalT=0,pos,temp;
     float avg_wt,avg_tat;
     printf("Enter number of process: ");
@@ -40,7 +41,6 @@ int main()
         total+=wt[i];   
     }
     avg_wt=(float)total/n;  
- 
     printf("\nProcess\t    Burst Time\t   Waiting Time\t      Turnaround Time");
     
     for(i=0;i<n;i++)
@@ -51,7 +51,7 @@ int main()
     }
     avg_tat=(float)totalT/n;     
     printf("\n\nAverage Waiting Time=%f",avg_wt);
-    printf("\nAverage Turnaround Time=%f",avg_tat);
+    printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
 
 // Enter number of process:4

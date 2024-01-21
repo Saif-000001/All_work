@@ -2,6 +2,7 @@
 
 int main()
 {
+    printf("\nOUTPUT-4:  \n");
     int i, NOP, sum = 0, count = 0, y, quant, wt = 0, tat = 0, at[10], bt[10], temp[10];
     float avg_wt, avg_tat;
     printf(" Total number of process in the system: ");
@@ -66,8 +67,8 @@ int main()
 
 /*
 4
-arrival time-> 0, 1, 2, 3, 4
-bus -> 8, 5, 10, 11
+arrival time-> 0, 1
+bus -> 8, 5
 quantam -> 11
 
 */

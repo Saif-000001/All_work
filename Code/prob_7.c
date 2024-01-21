@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+  printf("\nOUTPUT-7:  \n");
     int n, m, i, j, k;
     n = 5; 
     m = 3; 

@@ -14,6 +14,7 @@ void swap(int *a,int *b)
 }
 int main()
 {
+    printf("\nOUTPUT-3:  \n");
     int n;
     printf("Enter Number of Processes: ");
     scanf("%d",&n);

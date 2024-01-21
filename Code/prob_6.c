@@ -67,6 +67,7 @@ void *philosopher(void *num)
 
 int main()
 {
+    printf("\nOUTPUT-6:  \n");
     int i;
     pthread_t thread_id[N];
     sem_init(&mutex, 0, 1);

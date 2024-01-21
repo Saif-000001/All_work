@@ -37,6 +37,7 @@ void *writer(void* param)
 
 int main()
 {
+    printf("\nOUTPUT-5:  \n");
     int n2,i;
     printf("Enter the number of readers: ");
     scanf("%d",&n2);
@@ -53,6 +54,7 @@ int main()
         pthread_join(writerthreads[i],NULL);
         pthread_join(readerthreads[i],NULL);
     }
+    printf("\n");
 
 }
 
