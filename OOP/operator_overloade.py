@@ -9,6 +9,8 @@ class Cricketer(Person):
     def __init__(self, name, age, height, weight, team) -> None:
         self.team = team
         super().__init__(name, age, height, weight)
+    
+    # overloade
     def __add__(self, others):
         return self.age + others.age
 
